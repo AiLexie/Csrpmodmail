@@ -307,11 +307,11 @@ class Utility(commands.Cog):
         embed.set_author(
             name="Modmail - About",
             icon_url=self.bot.user.avatar_url,
-            url="https://discord.gg/F34cRU8",
+            url="hhttps://discord.gg/UQRYHZM",
         )
         embed.set_thumbnail(url=self.bot.user.avatar_url)
 
-        desc = "This is an open source Discord bot that serves as a means for "
+        desc = "This bot was made for CSRP by Luna "
         desc += "members to easily communicate with server administrators in "
         desc += "an organised manner."
         embed.description = desc
@@ -335,16 +335,16 @@ class Utility(commands.Cog):
 
         embed.add_field(
             name="Want Modmail in Your Server?",
-            value="Follow the installation guide on [GitHub](https://github.com/kyb3r/modmail/) "
-            "and join our [Discord server](https://discord.gg/F34cRU8)!",
+            value="Contact Luna"
+            "and join our [Discord server](https://discord.gg/csrp)!",
             inline=False,
         )
 
         embed.add_field(
-            name="Support the Developers",
-            value="This bot is completely free for everyone. We rely on kind individuals "
-            "like you to support us on [`Patreon`](https://patreon.com/kyber) (perks included) "
-            "to keep this bot free forever!",
+            name="Thank the Developer",
+            value="Dm <@768784057945161728>  "
+            "To thanks for this lovely bot"
+            "Poggers!",
             inline=False,
         )
 
@@ -364,7 +364,7 @@ class Utility(commands.Cog):
         """Shows the sponsors of this project."""
 
         async with self.bot.session.get(
-            "https://raw.githubusercontent.com/kyb3r/modmail/master/SPONSORS.json"
+            "https://raw.githubusercontent.com/SnPux/Csrpmodmail/main/SPONSORS.json"
         ) as resp:
             data = loads(await resp.text())
 
