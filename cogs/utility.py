@@ -307,7 +307,7 @@ class Utility(commands.Cog):
         embed.set_author(
             name="Modmail - About",
             icon_url=self.bot.user.avatar_url,
-            url="hhttps://discord.gg/UQRYHZM",
+            url="https://discord.gg/UQRYHZM",
         )
         embed.set_thumbnail(url=self.bot.user.avatar_url)
 
