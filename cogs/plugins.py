@@ -114,7 +114,7 @@ class Plugins(commands.Cog):
     These addons could have a range of features from moderation to simply
     making your life as a moderator easier!
     Learn how to create a plugin yourself here:
-    https://github.com/kyb3r/modmail/wiki/Plugins
+    https://discordpy.readthedocs.io/en/stable/ext/commands/cogs.html
     """
 
     def __init__(self, bot):
