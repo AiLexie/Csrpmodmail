@@ -95,7 +95,7 @@ class Modmail(commands.Cog):
             name="Thanks for using our bot!",
             value="If you like what you see, consider giving the "
             "Feedback "
-            "feeling extra generous, buy Somthing on csrp store [Tebex](https://carolina-state-rp.tebex.io/) :heart:!",
+            "feeling extra generous, buy Somthing",
         )
 
         embed.set_footer(text=f'Type "{self.bot.prefix}help" for a complete list of commands.')
