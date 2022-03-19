@@ -311,7 +311,7 @@ class Utility(commands.Cog):
         )
         embed.set_thumbnail(url=self.bot.user.avatar_url)
 
-        desc = "This bot was made for CSRP by Luna "
+        desc = "This bot was made for Incognito.cc By Lexie "
         desc += "members to easily communicate with server administrators in "
         desc += "an organised manner."
         embed.description = desc
@@ -335,14 +335,14 @@ class Utility(commands.Cog):
 
         embed.add_field(
             name="Want Modmail in Your Server?",
-            value="Contact Luna"
-            "and join our [Discord server](https://discord.gg/csrp)!",
+            value="Contact Lexie"
+            "and join our [Discord server](https://discord.gg/ttBz5Fz5)!",
             inline=False,
         )
 
         embed.add_field(
             name="Thank the Developer",
-            value="Dm <@768784057945161728>  "
+            value="Dm <@764901218883076097>  "
             "To thanks for this lovely bot"
             "Poggers!",
             inline=False,
